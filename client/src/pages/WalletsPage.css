@@ -1,0 +1,371 @@
+WalletRiskPage.css
+
+.wallet-risk-analyzer {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  color: #ffffff;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 100%);
+}
+
+/* Buffer Overlay Styles */
+.buffer-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15, 15, 26, 0.95);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  flex-direction: column;
+}
+
+.buffer-content {
+  text-align: center;
+  color: #00d1ff;
+  padding: 2rem;
+  border-radius: 16px;
+  background: rgba(26, 26, 46, 0.8);
+  box-shadow: 0 8px 32px rgba(0, 209, 255, 0.2);
+  border: 1px solid rgba(0, 209, 255, 0.1);
+  max-width: 500px;
+  width: 90%;
+}
+
+.buffer-spinner {
+  width: 80px;
+  height: 80px;
+  border: 5px solid rgba(0, 209, 255, 0.1);
+  border-top: 5px solid #00d1ff;
+  border-radius: 50%;
+  animation: spin 1.5s linear infinite;
+  margin: 0 auto 30px;
+}
+
+.buffer-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  background: linear-gradient(90deg, #00d1ff, #00ffaa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* Input Section Styles */
+.input-section {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: rgba(26, 26, 46, 0.6);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  margin-top: 2rem;
+}
+
+.main-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #00d1ff 0%, #00ffaa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 3rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.wallet-input {
+  width: 100%;
+  padding: 1.2rem 1.5rem;
+  border-radius: 12px;
+  border: 2px solid rgba(0, 209, 255, 0.3);
+  background: rgba(15, 15, 26, 0.8);
+  color: #ffffff;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 209, 255, 0.1);
+}
+
+.wallet-input:focus {
+  outline: none;
+  border-color: #00d1ff;
+  box-shadow: 0 0 0 3px rgba(0, 209, 255, 0.2);
+}
+
+.wallet-input::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  font-style: italic;
+}
+
+.analyze-btn {
+  background: linear-gradient(135deg, #00d1ff 0%, #00ffaa 100%);
+  color: #0f0f1a;
+  border: none;
+  padding: 1.2rem 3rem;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 20px rgba(0, 209, 255, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.analyze-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(0, 209, 255, 0.4);
+}
+
+.analyze-btn:disabled {
+  background: #444;
+  color: #777;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Result Section Styles */
+.result-section {
+  padding: 2rem;
+  background: rgba(26, 26, 46, 0.6);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  margin-top: 2rem;
+}
+
+.report-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(0, 209, 255, 0.2);
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #00d1ff 0%, #00ffaa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.wallet-address {
+  font-family: 'Courier New', monospace;
+  background: rgba(0, 209, 255, 0.1);
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  display: inline-block;
+  word-break: break-all;
+  color: #00d1ff;
+  font-size: 0.9rem;
+  border: 1px solid rgba(0, 209, 255, 0.2);
+}
+
+.markdown-content {
+  background: rgba(15, 15, 26, 0.8);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 209, 255, 0.2);
+  margin-bottom: 2rem;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  box-shadow: inset 0 0 20px rgba(0, 209, 255, 0.05);
+}
+
+/* Markdown Content Styles */
+.markdown-content h1 {
+  color: #00d1ff;
+  font-size: 1.8rem;
+  margin: 2rem 0 1rem 0;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(0, 209, 255, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+.markdown-content h2 {
+  color: #00ffaa;
+  font-size: 1.5rem;
+  margin: 1.8rem 0 1rem 0;
+  font-weight: 600;
+}
+
+.markdown-content h3 {
+  color: #80d0ff;
+  font-size: 1.3rem;
+  margin: 1.5rem 0 0.8rem 0;
+  font-weight: 500;
+}
+
+.markdown-content p {
+  margin-bottom: 1.2rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.markdown-content strong {
+  color: #ffff80;
+  font-weight: 700;
+}
+
+.markdown-content em {
+  color: #c0c0c0;
+  font-style: italic;
+}
+
+.markdown-content code {
+  background: rgba(0, 209, 255, 0.15);
+  color: #00d1ff;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+.markdown-content pre {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1.2rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  border: 1px solid rgba(0, 209, 255, 0.2);
+  margin: 1.5rem 0;
+}
+
+.markdown-content pre code {
+  background: transparent;
+  padding: 0;
+  color: #00ffaa;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+}
+
+.markdown-content li {
+  margin-bottom: 0.8rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.markdown-content blockquote {
+  border-left: 4px solid #00d1ff;
+  padding-left: 1.2rem;
+  margin: 1.5rem 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-style: italic;
+  background: rgba(0, 209, 255, 0.05);
+  padding: 1rem;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Button Styles */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.action-btn {
+  background: linear-gradient(135deg, #ff8000 0%, #ff6000 100%);
+  color: #fff;
+  border: none;
+  padding: 1.2rem 3rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(255, 128, 0, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.action-btn:hover {
+  background: linear-gradient(135deg, #ff9020 0%, #ff7020 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(255, 128, 0, 0.4);
+}
+
+/* Animations */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
+/* Scrollbar styling */
+.markdown-content::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.markdown-content::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.markdown-content::-webkit-scrollbar-thumb {
+  background: rgba(0, 209, 255, 0.4);
+  border-radius: 10px;
+}
+
+.markdown-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 209, 255, 0.6);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .wallet-risk-analyzer {
+    padding: 1rem;
+  }
+  
+  .main-title {
+    font-size: 2.2rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+  }
+  
+  .input-section, 
+  .result-section {
+    padding: 1.5rem;
+  }
+  
+  .markdown-content {
+    padding: 1.2rem;
+  }
+}
