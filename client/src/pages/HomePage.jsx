@@ -88,7 +88,7 @@ const Home = () => {
   return (
     <div className="app">
       <nav className="navbar">
-        <div className="navbar-logo">McBase Secure</div>
+        <div className="navbar-logo">BasEncrypt</div>
         <div className="navbar-links">
           <Link to="/" className="nav-link">Home</Link>
           <Link to="/about" className="nav-link">About</Link>
