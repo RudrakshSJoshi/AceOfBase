@@ -1,0 +1,327 @@
+{
+    "_code": 1,
+    "_message": "OK",
+    "_result": {
+        "0x78a087d713be963bf307b18f2ff8122ef9a63ae9": {
+            "_note": null,
+            "_lp_total_supply": "9603.454338889420406926",
+            "_lp_holders": [
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 1,
+                    "_address": "0xaa93c2efd8fcc07c723e19a6e78ef5d2644bf391",
+                    "_balance": "8942.422943296549131587",
+                    "_nft_list": null,
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.931167330809705767",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 1,
+                    "_address": "0x2b0a43dccbd7d42c18f6a83f86d1a19fa58d541a",
+                    "_balance": "178.532340237987930404",
+                    "_nft_list": null,
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.018590429436938842",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0x0bb77623a55aff704b0bab85757339cd93025fcc",
+                    "_balance": "58.500362727802365258",
+                    "_nft_list": null,
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.006091595863678315",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 1,
+                    "_address": "0xaf1823bacd8edda3b815180a61f8741fa4abc6dd",
+                    "_balance": "49.253281036895974113",
+                    "_nft_list": null,
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.005128704661763592",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0x9b9d2ffd4973ca4d0ae0044bd8aa9134f836aa53",
+                    "_balance": "33.558634101125285219",
+                    "_nft_list": null,
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.003494433660732762",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0xdc3fc1842a793c87f1b938375bd5a19ba8d9f417",
+                    "_balance": "17.597951188887028569",
+                    "_nft_list": null,
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.001832460546787180",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0x77533f7fa91c6bdc4c757d04b9450a1376576da0",
+                    "_balance": "14.669381386870729865",
+                    "_nft_list": null,
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.001527510921509431",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0x6d041e6b135b7336fd7dd450755abd5ba1750235",
+                    "_balance": "9.089579353506725129",
+                    "_nft_list": null,
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.000946490609810915",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0xaf073316c34872629363d0cfc7b749e5249898c0",
+                    "_balance": "8.117674334313097639",
+                    "_nft_list": null,
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.000845286919461925",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0x2e1f72210c51494e2fab256ed13907486cb5094c",
+                    "_balance": "7.999261004568914868",
+                    "_nft_list": null,
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.000832956634382663",
+                    "discriminator": null
+                }
+            ],
+            "_is_airdrop_scam": null,
+            "_other_potential_risks": null,
+            "_transfer_pausable": "0",
+            "_trading_cooldown": "0",
+            "_hidden_owner": "0",
+            "_selfdestruct": "0",
+            "_owner_percent": "0.001979",
+            "_is_whitelisted": "0",
+            "_holder_count": "106444",
+            "_trust_list": null,
+            "_is_honeypot": "0",
+            "_honeypot_with_same_creator": "0",
+            "_holders": [
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 1,
+                    "_address": "0xe80b4f755417fb4baf4dbd23c029db3f62786523",
+                    "_balance": "1828070.686080497466988315",
+                    "_locked_detail": null,
+                    "_tag": "BaseSwap",
+                    "_percent": "0.182834729359732400",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 1,
+                    "_address": "0x86dbd5baae91ac576e8e5197eb2497603d0056ea",
+                    "_balance": "1760898.365492929296859315",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.176116480908724524",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 1,
+                    "_address": "0x6fc0f134a1f20976377b259687b1c15a5d422b47",
+                    "_balance": "986578.352639322288367007",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.098672763296549144",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0x2e93b992ab8a11e954464e6b0b2e28098241f1ef",
+                    "_balance": "215971.598591013398287484",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.021600427750657513",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 1,
+                    "_address": "0xaa93c2efd8fcc07c723e19a6e78ef5d2644bf391",
+                    "_balance": "181358.056484669358222095",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.018138549798463031",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0xceeecbeacb3e40997d03ba7c915ad6b3e306329b",
+                    "_balance": "178585.572615747562845989",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.017861259460792676",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0x1381ef56f979724a20f1dac805de768ada9b6bbd",
+                    "_balance": "178374.156096110228668416",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.017840114609860819",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0x27b63bee5e23d62fe0668351b8312bd05e59fd72",
+                    "_balance": "130342.120020017395731329",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.013036184223887423",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0x9340989729aa956fe11fe9bf6038e3df627dfe4d",
+                    "_balance": "105826.38333",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.010584239604402169",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0x146b1ab65e16c3b5ad5b0a090cdd599126cc6595",
+                    "_balance": "103579.975351233239254655",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.010359564815863232",
+                    "discriminator": null
+                }
+            ],
+            "_dex": [
+                {
+                    "_name": "BaseSwap",
+                    "_liquidity": "145104.93120460",
+                    "_pair": "0xe80b4f755417fb4baf4dbd23c029db3f62786523",
+                    "discriminator": null
+                },
+                {
+                    "_name": "UniswapV3",
+                    "_liquidity": "192.09799939404980414846",
+                    "_pair": "0xb14cd62b298d635fac437010fa54dc0b830e6072",
+                    "discriminator": null
+                },
+                {
+                    "_name": "BaseSwap",
+                    "_liquidity": "92.36012385",
+                    "_pair": "0x3cd5a4c56c4794d88170b6bde719656a73026539",
+                    "discriminator": null
+                },
+                {
+                    "_name": "BaseSwap",
+                    "_liquidity": "32.52138223",
+                    "_pair": "0xd8052652da8cfe907f7e29704d569506ddaaeeb4",
+                    "discriminator": null
+                },
+                {
+                    "_name": "BaseSwap",
+                    "_liquidity": "1.36764564",
+                    "_pair": "0xe5fc1c437e8a45e87b31ae7033a7af524b7fa06c",
+                    "discriminator": null
+                },
+                {
+                    "_name": "UniswapV2",
+                    "_liquidity": "1.29246210",
+                    "_pair": "0x2f2255208960d2d12d0d3231321cedc3eba10828",
+                    "discriminator": null
+                },
+                {
+                    "_name": "UniswapV3",
+                    "_liquidity": "0.9957649799147974872",
+                    "_pair": "0x652fd5b4887775d5ce08bc43c6d32f9c9a6cb79a",
+                    "discriminator": null
+                },
+                {
+                    "_name": "SushiSwapV2",
+                    "_liquidity": "0.04963833",
+                    "_pair": "0xe2df8d8a87bdcdffe4886572f411dbe6615d4266",
+                    "discriminator": null
+                },
+                {
+                    "_name": "SushiSwapV3",
+                    "_liquidity": "0.00001389804871979403",
+                    "_pair": "0x14046daeb4c49d4125620e2711b45a961ef8e939",
+                    "discriminator": null
+                },
+                {
+                    "_name": "SushiSwapV3",
+                    "_liquidity": "0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000079331290142334838680397325",
+                    "_pair": "0x80170361ee0180410a7abe3d1b7033160f02fd9e",
+                    "discriminator": null
+                }
+            ],
+            "_is_open_source": "1",
+            "_sell_tax": "0",
+            "_token_name": "Baseswap Token",
+            "_fake_token": null,
+            "_creator_address": "0x03d4C4b1B115c068Ef864De2e21E724a758892A2",
+            "_creator_percent": "0.000000",
+            "_is_proxy": "0",
+            "_creator_balance": "2.815118996095832732",
+            "_is_in_dex": "1",
+            "_owner_balance": "19788.365835669353189528",
+            "_total_supply": "9998487.117202540313543002",
+            "_is_true_token": null,
+            "_can_take_back_ownership": "0",
+            "_is_blacklisted": "0",
+            "_owner_address": "0x2b0a43dccbd7d42c18f6a83f86d1a19fa58d541a",
+            "_slippage_modifiable": "0",
+            "_buy_tax": "0",
+            "_external_call": "0",
+            "_cannot_sell_all": "0",
+            "_lp_holder_count": "11777",
+            "_personal_slippage_modifiable": "0",
+            "_is_anti_whale": "0",
+            "_is_mintable": "1",
+            "_owner_change_balance": "0",
+            "_cannot_buy": "0",
+            "_anti_whale_modifiable": "0",
+            "_token_symbol": "BSWAP",
+            "discriminator": null
+        }
+    },
+    "discriminator": null
+}

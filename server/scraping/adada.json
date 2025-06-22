@@ -1,0 +1,192 @@
+{
+    "_code": 1,
+    "_message": "OK",
+    "_result": {
+        "0x98f49f33b7069179f6ff5eb5761b5c6572a447d5": {
+            "_note": null,
+            "_lp_total_supply": "0.071200041432572217",
+            "_lp_holders": [
+                {
+                    "_is_locked": 1,
+                    "_is_contract": 1,
+                    "_address": "0xf17a08a7d41f53b24ad07eb322cbbda2ebdec04b",
+                    "_balance": "0.071200041432571217",
+                    "_nft_list": null,
+                    "_locked_detail": [
+                        {
+                            "_amount": "7120004143.2571217",
+                            "_opt_time": "2025-06-11T23:19:07+00:00",
+                            "_end_time": "2025-07-30T00:00:00+00:00",
+                            "discriminator": null
+                        }
+                    ],
+                    "_tag": "GoPlus SafeToken Locker",
+                    "_percent": "0.999999999999985955",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 1,
+                    "_is_contract": 0,
+                    "_address": "0x0000000000000000000000000000000000000000",
+                    "_balance": "0.000000000000001",
+                    "_nft_list": null,
+                    "_locked_detail": null,
+                    "_tag": "Null Address",
+                    "_percent": "0.000000000000014044",
+                    "discriminator": null
+                }
+            ],
+            "_is_airdrop_scam": null,
+            "_other_potential_risks": null,
+            "_transfer_pausable": "0",
+            "_trading_cooldown": "0",
+            "_hidden_owner": "0",
+            "_selfdestruct": "0",
+            "_owner_percent": "0",
+            "_is_whitelisted": "0",
+            "_holder_count": "375427",
+            "_trust_list": null,
+            "_is_honeypot": "0",
+            "_honeypot_with_same_creator": "0",
+            "_holders": [
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 1,
+                    "_address": "0x3223200a08c9c7c2ee7e68b37ecc5172871f2538",
+                    "_balance": "153906128.4940133",
+                    "_locked_detail": null,
+                    "_tag": "UniswapV2",
+                    "_percent": "0.153906128494013300",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0xc8db53942c3950c5f4a272d97f703d58df31de9c",
+                    "_balance": "36000000",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.036000000000000000",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0x9510e3affcefd5aceb1e5dc8d87efd25109e5b03",
+                    "_balance": "33816365.5257382",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.033816365525738200",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0x9f925250842ff0733619135ca3a9c041ccee9d1b",
+                    "_balance": "26493092.4851568",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.026493092485156800",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0x7032654723192e14044d42a6c19a8a4cf234cf2a",
+                    "_balance": "20891763.7165242",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.020891763716524200",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0xf6e9d3c461b791766b7f3670ce2c61f2e29a029a",
+                    "_balance": "20172993.6067676",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.020172993606767600",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0xfdb3444bdf7feec7825147f34fe526ad343f1dab",
+                    "_balance": "17869157.0329524",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.017869157032952400",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0x775a26e9df047d953abba8cd41af1a804b7e9ea6",
+                    "_balance": "17055009.830902",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.017055009830902000",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0x091df2528f8d71e4b1fb0cde59174e081f6c183d",
+                    "_balance": "16920748.250943",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.016920748250943000",
+                    "discriminator": null
+                },
+                {
+                    "_is_locked": 0,
+                    "_is_contract": 0,
+                    "_address": "0x53102c74330753cadc951b919f78b834ede4f995",
+                    "_balance": "16026879.1899821",
+                    "_locked_detail": null,
+                    "_tag": "",
+                    "_percent": "0.016026879189982100",
+                    "discriminator": null
+                }
+            ],
+            "_dex": [
+                {
+                    "_name": "UniswapV2",
+                    "_liquidity": "20660.21109130",
+                    "_pair": "0x3223200a08c9c7c2ee7e68b37ecc5172871f2538",
+                    "discriminator": null
+                }
+            ],
+            "_is_open_source": "1",
+            "_sell_tax": "0",
+            "_token_name": "Ski Mask Ratz",
+            "_fake_token": null,
+            "_creator_address": "0x40929f552553b3efd811dc3d6e10b7abe5a5db78",
+            "_creator_percent": "0.000000",
+            "_is_proxy": "0",
+            "_creator_balance": "0",
+            "_is_in_dex": "1",
+            "_owner_balance": "0",
+            "_total_supply": "1000000000",
+            "_is_true_token": null,
+            "_can_take_back_ownership": "0",
+            "_is_blacklisted": "0",
+            "_owner_address": "",
+            "_slippage_modifiable": "0",
+            "_buy_tax": "0",
+            "_external_call": "0",
+            "_cannot_sell_all": "0",
+            "_lp_holder_count": "2",
+            "_personal_slippage_modifiable": "0",
+            "_is_anti_whale": "0",
+            "_is_mintable": "0",
+            "_owner_change_balance": "0",
+            "_cannot_buy": "0",
+            "_anti_whale_modifiable": "0",
+            "_token_symbol": "SKIRATZ",
+            "discriminator": null
+        }
+    },
+    "discriminator": null
+}

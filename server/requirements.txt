@@ -1,0 +1,13 @@
+groq
+torch
+torch-geometric
+pandas
+numpy
+requests
+tqdm
+fastapi
+uvicorn
+pydantic
+scikit-learn
+scipy
+python-dotenv
