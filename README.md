@@ -105,6 +105,13 @@ Recursive trace visualization of malicious transaction flow, intermediaries, and
 
 ---
 
+Research Papers Utilized:
+
+(https://arxiv.org/pdf/2501.13946v1)
+(https://www.researchgate.net/publication/391235176_Causal_Inference_in_Agentic_AI_Bridging_Explainability_and_Dynamic_Decision_Making)
+
+---
+
 ## ✨ Future Roadmap
 
 * [ ] AI-generated contract safety scores
