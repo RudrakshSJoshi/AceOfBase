@@ -98,11 +98,10 @@ By building directly on **Base**, we ensure:
 
 ---
 
-## 📸 Screenshots (Optional)
+### 🧠 Deep Research Flow — Website Look
+Recursive trace visualization of malicious transaction flow, intermediaries, and refundability checks.
 
-| Heartbeat Dashboard | Deep Research Flow |
-| ------------------- | ------------------ |
-| ![heartbeat.png](#) | ![flow.png](#)     |
+![data/webapp.png](#)
 
 ---
 
