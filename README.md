@@ -114,17 +114,6 @@ Recursive trace visualization of malicious transaction flow, intermediaries, and
 
 ---
 
-## 🤝 Join the Mission
-
-Whether you're a developer, security enthusiast, DeFi user, or investor — there's a place for you in building the **smartest firewall Web3 has ever seen**.
-
-📬 **Contact**: [firewall@basechain.sh](mailto:firewall@basechain.sh)
-🌐 **Site**: \[Coming Soon]
-🐦 **Twitter**: [@FirewallOnBase](#)
-🧠 **Built by Rudraksh & team**
-
----
-
 > **"Before your funds move, let your firewall think."**
 > Secure your Base. Protect your future.
 > — *Firewall of Base*
